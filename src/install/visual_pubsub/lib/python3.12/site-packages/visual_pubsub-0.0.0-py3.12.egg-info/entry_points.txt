@@ -1,0 +1,8 @@
+[console_scripts]
+filter_node = visual_pubsub.filter_node:main
+filtered_sensor_subscriber = visual_pubsub.filtered_sensor_subscriber:main
+inverse = visual_pubsub.robota:main
+inversebio = visual_pubsub.robotbio:main
+sensor1_publisher = visual_pubsub.sensor1_publisher:main
+sensor2_publisher = visual_pubsub.sensor2_publisher:main
+sensor3_publisher = visual_pubsub.sensor3_publisher:main

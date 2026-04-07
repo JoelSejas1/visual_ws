@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_description__py",
+		"source" : "/home/joel/robotica/visual_ws/src/build/robot_description/robot_description__py"
+	}
+}

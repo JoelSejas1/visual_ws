@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_description",
+  "non_idl_tuples": [
+    "/home/joel/robotica/visual_ws/src/ros2_tutorials/robot_description:msg/FilteredSensor.msg"
+  ]
+}

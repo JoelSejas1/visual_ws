@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robot_description/msg/FilteredSensor",
+      "fields": [
+        {
+          "name": "sensor_value",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robot_description/msg/FilteredSensor",
+      "hash_string": "RIHS01_de405d0447429262d4ab82eaba1981589e920ff1c61dd88eef8c19a047e8acfc"
+    }
+  ]
+}

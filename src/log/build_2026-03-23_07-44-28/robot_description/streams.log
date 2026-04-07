@@ -1,0 +1,84 @@
+[0.064s] Invoking command in '/home/joel/robotica/visual_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joel/robotica/visual_ws/src/ros2_tutorials/robot_description -DCMAKE_INSTALL_PREFIX=/home/joel/robotica/visual_ws/src/install/robot_description
+[0.727s] -- The C compiler identification is GNU 13.3.0
+[1.035s] -- The CXX compiler identification is GNU 13.3.0
+[1.069s] -- Detecting C compiler ABI info
+[1.247s] -- Detecting C compiler ABI info - done
+[1.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.275s] -- Detecting C compile features
+[1.276s] -- Detecting C compile features - done
+[1.301s] -- Detecting CXX compiler ABI info
+[1.519s] -- Detecting CXX compiler ABI info - done
+[1.539s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.540s] -- Detecting CXX compile features
+[1.541s] -- Detecting CXX compile features - done
+[2.041s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.698s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.876s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.275s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.275s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.288s] -- Added test 'lint_cmake' to check CMake code style
+[4.303s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.327s] -- Added test 'xmllint' to check XML markup files
+[4.337s] -- Configuring done (4.2s)
+[4.343s] -- Generating done (0.0s)
+[4.346s] -- Build files have been written to: /home/joel/robotica/visual_ws/src/build/robot_description
+[4.355s] Invoked command in '/home/joel/robotica/visual_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joel/robotica/visual_ws/src/ros2_tutorials/robot_description -DCMAKE_INSTALL_PREFIX=/home/joel/robotica/visual_ws/src/install/robot_description
+[4.358s] Invoking command in '/home/joel/robotica/visual_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel/robotica/visual_ws/src/build/robot_description -- -j8 -l8
+[4.430s] Invoked command in '/home/joel/robotica/visual_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel/robotica/visual_ws/src/build/robot_description -- -j8 -l8
+[4.448s] Invoking command in '/home/joel/robotica/visual_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joel/robotica/visual_ws/src/build/robot_description
+[4.463s] -- Install configuration: ""
+[4.464s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/launch
+[4.464s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/launch/view_robot.launch.py
+[4.464s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf
+[4.464s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/diff_wheeled_robot.urdf
+[4.465s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/wally1.urdf
+[4.465s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/multipleshapes.gv
+[4.465s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/panda.urdf
+[4.465s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/multipleshapes.pdf
+[4.465s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/cobot_arm.urdf
+[4.465s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/guillecar.urdf
+[4.466s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/myfirst_robot.urdf
+[4.466s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/clases_test.urdf
+[4.466s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/robot1.urdf
+[4.466s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/pantilt.urdf
+[4.466s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/rviz
+[4.466s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/rviz/urdf.rviz
+[4.467s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes
+[4.467s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual
+[4.467s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/finger.dae
+[4.485s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link5.dae
+[4.525s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link7.dae
+[4.526s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link3.dae
+[4.542s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link2.dae
+[4.563s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link1.dae
+[4.586s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link0.dae
+[4.610s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link4.dae
+[4.632s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/hand.dae
+[4.648s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link6.dae
+[4.651s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision
+[4.651s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link0.obj
+[4.702s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link2.obj
+[4.723s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/hand.obj
+[4.758s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link7.obj
+[4.759s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link3.obj
+[4.759s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link6.obj
+[4.926s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link1.obj
+[4.955s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link4.obj
+[5.004s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/finger.obj
+[5.015s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link5.obj
+[5.046s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[5.046s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[5.047s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[5.047s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[5.048s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/path.sh
+[5.048s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/path.dsv
+[5.049s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.bash
+[5.049s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.sh
+[5.049s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.zsh
+[5.050s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.dsv
+[5.050s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/package.dsv
+[5.050s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[5.051s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[5.051s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[5.051s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/package.xml
+[5.055s] Invoked command in '/home/joel/robotica/visual_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joel/robotica/visual_ws/src/build/robot_description

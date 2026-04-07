@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_description/msg/FilteredSensor.msg
+// generated code does not contain a copyright notice
+
+
+module robot_description {
+  module msg {
+    struct FilteredSensor {
+      double sensor_value;
+
+      string name;
+    };
+  };
+};

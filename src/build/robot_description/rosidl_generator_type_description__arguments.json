@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_description",
+  "output_dir": "/home/joel/robotica/visual_ws/src/build/robot_description/rosidl_generator_type_description/robot_description",
+  "idl_tuples": [
+    "/home/joel/robotica/visual_ws/src/build/robot_description/rosidl_adapter/robot_description:msg/FilteredSensor.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,245 @@
+[0.010s] Invoking command in '/home/joel/robotica/visual_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel/robotica/visual_ws/install/visual_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel/robotica/visual_ws/src/build/robot_description -- -j8 -l8
+[0.028s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.184s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.265s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.268s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.729s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.102s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.523s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.526s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.623s] -- Found PythonExtra: /usr/bin/python3  
+[1.925s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.958s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.963s] -- Configuring done (1.9s)
+[1.984s] -- Generating done (0.0s)
+[1.992s] -- Build files have been written to: /home/joel/robotica/visual_ws/src/build/robot_description
+[2.019s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.025s] [  2%] Built target ament_cmake_python_copy_robot_description
+[2.148s] [  2%] Built target robot_description__rosidl_generator_type_description
+[2.155s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.166s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.177s] running egg_info
+[2.178s] creating robot_description.egg-info
+[2.197s] writing robot_description.egg-info/PKG-INFO
+[2.197s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[2.197s] writing top-level names to robot_description.egg-info/top_level.txt
+[2.197s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.238s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.238s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.258s] [  8%] Built target ament_cmake_python_build_robot_description_egg
+[2.346s] [  8%] Built target robot_description__cpp
+[2.354s] [ 17%] [32mBuilding C object CMakeFiles/robot_description__rosidl_generator_c.dir/rosidl_generator_c/robot_description/msg/detail/filtered_sensor__type_support.c.o[0m
+[2.354s] [ 17%] [32mBuilding C object CMakeFiles/robot_description__rosidl_generator_c.dir/rosidl_generator_c/robot_description/msg/detail/filtered_sensor__functions.c.o[0m
+[2.354s] [ 17%] [32mBuilding C object CMakeFiles/robot_description__rosidl_generator_c.dir/rosidl_generator_c/robot_description/msg/detail/filtered_sensor__description.c.o[0m
+[2.386s] [ 20%] [32m[1mLinking C shared library librobot_description__rosidl_generator_c.so[0m
+[2.413s] [ 20%] Built target robot_description__rosidl_generator_c
+[2.424s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.425s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.425s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.425s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.426s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.426s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.640s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_description__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_description/msg/filtered_sensor__type_support.cpp.o[0m
+[2.694s] [ 44%] [32m[1mLinking CXX shared library librobot_description__rosidl_typesupport_c.so[0m
+[2.706s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_description__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_description/msg/filtered_sensor__type_support.cpp.o[0m
+[2.714s] [ 50%] [32mBuilding C object CMakeFiles/robot_description__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_description/msg/detail/filtered_sensor__type_support.c.o[0m
+[2.720s] [ 52%] [32mBuilding CXX object CMakeFiles/robot_description__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_description/msg/detail/filtered_sensor__type_support.cpp.o[0m
+[2.745s] [ 58%] [32mBuilding CXX object CMakeFiles/robot_description__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_description/msg/detail/filtered_sensor__type_support_c.cpp.o[0m
+[2.745s] [ 58%] [32mBuilding CXX object CMakeFiles/robot_description__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_description/msg/detail/dds_fastrtps/filtered_sensor__type_support.cpp.o[0m
+[2.746s] [ 58%] Built target robot_description__rosidl_typesupport_c
+[2.754s] [ 61%] [32m[1mLinking C shared library librobot_description__rosidl_typesupport_introspection_c.so[0m
+[2.789s] [ 61%] Built target robot_description__rosidl_typesupport_introspection_c
+[2.980s] [ 64%] [32m[1mLinking CXX shared library librobot_description__rosidl_typesupport_cpp.so[0m
+[3.019s] [ 64%] Built target robot_description__rosidl_typesupport_cpp
+[3.038s] [ 67%] [32m[1mLinking CXX shared library librobot_description__rosidl_typesupport_introspection_cpp.so[0m
+[3.091s] [ 67%] Built target robot_description__rosidl_typesupport_introspection_cpp
+[3.120s] [ 70%] [32m[1mLinking CXX shared library librobot_description__rosidl_typesupport_fastrtps_c.so[0m
+[3.169s] [ 73%] [32m[1mLinking CXX shared library librobot_description__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.194s] [ 73%] Built target robot_description__rosidl_typesupport_fastrtps_c
+[3.237s] [ 73%] Built target robot_description__rosidl_typesupport_fastrtps_cpp
+[3.253s] [ 73%] Built target robot_description
+[3.268s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.501s] [ 76%] Built target robot_description__py
+[3.519s] [ 79%] [32mBuilding C object CMakeFiles/robot_description__rosidl_generator_py.dir/rosidl_generator_py/robot_description/msg/_filtered_sensor_s.c.o[0m
+[3.613s] [ 82%] [32m[1mLinking C shared library librobot_description__rosidl_generator_py.so[0m
+[3.656s] [ 82%] Built target robot_description__rosidl_generator_py
+[3.673s] [ 85%] [32mBuilding C object CMakeFiles/robot_description_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robot_description/_robot_description_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.673s] [ 88%] [32mBuilding C object CMakeFiles/robot_description_s__rosidl_typesupport_c.dir/rosidl_generator_py/robot_description/_robot_description_s.ep.rosidl_typesupport_c.c.o[0m
+[3.673s] [ 91%] [32mBuilding C object CMakeFiles/robot_description_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robot_description/_robot_description_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.741s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/robot_description/robot_description_s__rosidl_typesupport_c.so[0m
+[3.742s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/robot_description/robot_description_s__rosidl_typesupport_introspection_c.so[0m
+[3.743s] [100%] [32m[1mLinking C shared module rosidl_generator_py/robot_description/robot_description_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.763s] [100%] Built target robot_description_s__rosidl_typesupport_c
+[3.764s] [100%] Built target robot_description_s__rosidl_typesupport_fastrtps_c
+[3.764s] [100%] Built target robot_description_s__rosidl_typesupport_introspection_c
+[3.772s] Invoked command in '/home/joel/robotica/visual_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel/robotica/visual_ws/install/visual_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel/robotica/visual_ws/src/build/robot_description -- -j8 -l8
+[3.779s] Invoking command in '/home/joel/robotica/visual_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel/robotica/visual_ws/install/visual_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joel/robotica/visual_ws/src/build/robot_description
+[3.785s] -- Install configuration: ""
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/ament_index/resource_index/rosidl_interfaces/robot_description
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/msg/FilteredSensor.json
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/filtered_sensor.h
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__struct.h
+[3.785s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__functions.h
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__functions.c
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__description.c
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__type_support.h
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__type_support.c
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/rosidl_generator_c__visibility_control.h
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/library_path.sh
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/library_path.dsv
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_generator_c.so
+[3.786s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_generator_c.so" to ""
+[3.786s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description
+[3.786s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg
+[3.786s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__rosidl_typesupport_fastrtps_c.h
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.786s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_fastrtps_c.so
+[3.787s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_fastrtps_c.so" to ""
+[3.787s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description
+[3.787s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg
+[3.787s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail
+[3.787s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__rosidl_typesupport_introspection_c.h
+[3.787s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__type_support.c
+[3.787s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.787s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_introspection_c.so
+[3.787s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_introspection_c.so" to ""
+[3.787s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_c.so
+[3.787s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_c.so" to ""
+[3.787s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description
+[3.787s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg
+[3.787s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/filtered_sensor.hpp
+[3.788s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__builder.hpp
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__struct.hpp
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__type_support.hpp
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__traits.hpp
+[3.788s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description
+[3.788s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg
+[3.788s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/dds_fastrtps
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.788s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_fastrtps_cpp.so
+[3.788s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.788s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description
+[3.788s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg
+[3.789s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__rosidl_typesupport_introspection_cpp.hpp
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/include/robot_description/robot_description/msg/detail/filtered_sensor__type_support.cpp
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_introspection_cpp.so
+[3.789s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_introspection_cpp.so" to ""
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_cpp.so
+[3.789s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_typesupport_cpp.so" to ""
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/pythonpath.sh
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/pythonpath.dsv
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info/top_level.txt
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info/PKG-INFO
+[3.789s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_introspection_c.so
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/_robot_description_s.ep.rosidl_typesupport_c.c
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/msg
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/msg/_filtered_sensor.py
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/msg/_filtered_sensor_s.c
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/msg/__init__.py
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_c.so
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/__init__.py
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/_robot_description_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_fastrtps_c.so
+[3.790s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/_robot_description_s.ep.rosidl_typesupport_introspection_c.c
+[3.820s] Listing '/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description'...
+[3.820s] Compiling '/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/__init__.py'...
+[3.820s] Listing '/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/msg'...
+[3.820s] Compiling '/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/msg/__init__.py'...
+[3.820s] Compiling '/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/msg/_filtered_sensor.py'...
+[3.824s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_fastrtps_c.so
+[3.824s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.824s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_introspection_c.so
+[3.824s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_introspection_c.so" to ""
+[3.825s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_c.so
+[3.825s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/python3.12/site-packages/robot_description/robot_description_s__rosidl_typesupport_c.so" to ""
+[3.825s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_generator_py.so
+[3.825s] -- Set non-toolchain portion of runtime path of "/home/joel/robotica/visual_ws/src/install/robot_description/lib/librobot_description__rosidl_generator_py.so" to ""
+[3.825s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/msg/FilteredSensor.idl
+[3.825s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/msg/FilteredSensor.msg
+[3.825s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/launch
+[3.825s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/launch/robot_a.launch.py
+[3.825s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/launch/robotbio.launch.py
+[3.825s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/launch/sensores_promedio.launch.py
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf
+[3.826s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/Examen1.urdf
+[3.826s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/urdf/Examen2.urdf
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/rviz
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/rviz/urdf.rviz
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/finger.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link5.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link7.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link3.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link2.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link1.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link0.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link4.dae
+[3.826s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/hand.dae
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/visual/link6.dae
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link0.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link2.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/hand.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link7.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link3.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link6.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link1.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link4.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/finger.obj
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/meshes/collision/link5.obj
+[3.827s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[3.827s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/path.sh
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/environment/path.dsv
+[3.827s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.bash
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.sh
+[3.828s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.zsh
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/local_setup.dsv
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/package.dsv
+[3.828s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_generator_cExport.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_generator_cExport-noconfig.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_typesupport_fastrtps_cExport.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_introspection_cExport.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_cExport.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_cExport-noconfig.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_generator_cppExport.cmake
+[3.828s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_introspection_cppExport.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_cppExport.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_description__rosidl_typesupport_cppExport-noconfig.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_generator_pyExport.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/export_robot_description__rosidl_generator_pyExport-noconfig.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/rosidl_cmake-extras.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/ament_cmake_export_libraries-extras.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/ament_cmake_export_targets-extras.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[3.829s] -- Up-to-date: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[3.829s] -- Installing: /home/joel/robotica/visual_ws/src/install/robot_description/share/robot_description/package.xml
+[3.830s] Invoked command in '/home/joel/robotica/visual_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel/robotica/visual_ws/install/visual_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joel/robotica/visual_ws/src/build/robot_description
